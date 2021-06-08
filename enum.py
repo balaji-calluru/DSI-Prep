@@ -12,7 +12,13 @@ for indx, a in enumerate(lst_a):
 
 acc = 0
 for i, a, b in zip(range(len(lst_a)), lst_a, lst_b):
-    print(i, a, b)
     acc += (a / b) ** i
-
 print(acc)
+
+for tup in zip(lst_a, lst_b):
+    print(tup)
+
+acc = 0
+for tup in enumerate(zip(lst_a, lst_b)):
+    print(tup)
+
