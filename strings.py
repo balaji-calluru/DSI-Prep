@@ -48,10 +48,38 @@ f = False
 print(f)
 print(type(f))
 print(str(f))
-"""
 
 a = "10"
 print(a)
 
 b = int(a)
 print(b)
+
+a = "10.4"
+print(a)
+
+b = float(a)
+print(b)
+
+print(bool("hello"))
+print(bool(""))
+print(bool(" "))
+"""
+
+lorem = '''
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum
+'''
+
+for char in lorem:
+    print(char)
+
+for word in lorem.split():
+    print(word)
+
+print(lorem.split())
