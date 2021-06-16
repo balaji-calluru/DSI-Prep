@@ -83,3 +83,4 @@ for word in lorem.split():
     print(word)
 
 print(lorem.split())
+print(list(lorem))
