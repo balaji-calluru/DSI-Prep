@@ -188,4 +188,7 @@ print(list(range(9,-1,-1)))
 
 lst = [1,1,2,2,3,3,4,4,5,5]
 st = set(lst)
+tpl = tuple(lst)
+print(lst)
 print(st)
+print(tpl)
